@@ -1,0 +1,79 @@
+body {
+    font-size: 100%;
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7e3e3;
+    background: url(space.jpg);
+}
+
+h1 {
+    font-size: xx-large;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: wavy;
+}
+
+h1:hover {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+}
+
+
+.todo-container {
+    background-color: rgb(255, 255, 255);
+    max-width: 50vw ;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1.4rem 3rem 0.5rem rgba(0,0,0,0.4);
+}
+
+.todo-list {
+    list-style: decimal;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+
+button {
+    background-color: #13c95c;
+    color: white;
+    border: none;
+    padding: 8px 8px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    color: #016027;
+}
+
+#delete {
+    background-color: #bd0f0f;
+    color: #faf6f6;
+    margin-top: 10px;
+}
+
+#delete:hover {
+    background-color: #7b0808;
+}
